@@ -65,9 +65,4 @@ router.post('/cats', (req: express.Request, res:express.Response)=> {
 })
 
 
-router.use((req:express.Request, res:express.Response) => {
-    console.log('this is error middleware');
-    res.send({error: '404 not found error'});
-})
-
 export default router;
