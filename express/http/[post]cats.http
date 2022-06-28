@@ -1,0 +1,10 @@
+POST http://localhost:8000/cats
+Content-Type: application/json
+
+{
+  "name": 999,
+  "age": "content",
+  "species": "ci",
+  "isCute": true,
+  "friends": ["asdfhj29009", "WE09tju2j"]
+}
