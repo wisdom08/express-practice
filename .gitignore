@@ -1,0 +1,3 @@
+# Project exclude paths
+/express/node_modules/
+/express/dist/
