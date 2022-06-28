@@ -1,0 +1,13 @@
+PUT http://localhost:8000/cats/weju0fj20qj
+Content-Type: application/json
+
+{
+  "id": "weju0fj20qj",
+  "name": "king of star!",
+  "age": 100,
+  "species": "Scottish Fold",
+  "isCute": false,
+  "friends": [
+    "weju0fj20qj"
+  ]
+}
